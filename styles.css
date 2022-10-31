@@ -1,0 +1,71 @@
+body {
+    background-color: #3D45C3;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about {
+    height: 90vh;
+    width: 40vw;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 15vh 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h1, #name {
+    font-weight: 700;
+}
+
+#name {
+    font-size: 1.3em;
+    display: block;
+    color: #111111;
+}
+
+h4 {
+    color: #555555;
+}
+
+#description {
+    color: #FFFFFF;
+}
+
+#carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+}
+
+#carouselExampleDark {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+    main {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #about {
+        height: 35vh;
+        width: 90vw;
+        padding: 2vh;
+    }
+
+    #carousel {
+        height: 45vh;
+        width: 90vw;
+    }
+}
